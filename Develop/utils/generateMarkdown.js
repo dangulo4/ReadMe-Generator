@@ -4,13 +4,25 @@ function generateMarkdown(data) {
   ## ${data.description}
   ## Table of Contents
   - [Installation](#Installation)
-  > ${data.installation}
   - [Usage](#Usage)
   - [License](#License)
   - [Contributing](#Contributing)
   - [Test](#Test)
   - [Questions](#Questions)
-
+  ## Installation
+  * The following installations are required: ${data.installation}
+  ## Usage
+  * ${data.usage}
+  ## License
+  * ${data.license}
+  ## Contributing
+  * ${data.contributing}
+  ## Tests
+  * ${data.tests}
+  ## Questions
+  * ${data.questions}
+  ## Github Profile Avatar
+  ## Github email
 `;
 }
 

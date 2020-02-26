@@ -29,6 +29,31 @@ function promptUser() {
           type: 'input',
           name: 'installation',
           message: 'Are there any installations required?'
+        },
+        {
+          type: 'input',
+          name: 'usage',
+          message: 'What is the usage?'
+        },
+        {
+          type: 'input',
+          name: 'license',
+          message: 'Are there any license?'
+        },
+        {
+          type: 'input',
+          name: 'contributing',
+          message: 'Who is contributing?'
+        },
+        {
+          type: 'input',
+          name: 'tests',
+          message: 'Are there any tests?'
+        },
+        {
+          type: 'input',
+          name: 'questions',
+          message: 'Are there any questions?'
         }
     ]);
 }
