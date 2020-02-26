@@ -1,7 +1,12 @@
 const inquirer  = require('inquirer');
 const fs        = require('fs');
-// const axios     = require('axios');
-// const util      = require('util');
+const util      = require('util');
+
+// const open              = require('open');
+// const api               = require('./api');
+const generateMarkdown  = require('./utils/generateMarkdown');
+
+const writeFileAsync = util.promisify(fs.writeFile);
 
 function promptUser() {
     return inquirer.prompt([
@@ -21,24 +26,26 @@ function promptUser() {
             message: 'Enter a description?'
         }
     ]);
-
+}
 // const questions = [
 
 // ];
-}
 
-function writeToFile(fileName, data) {
-    return fs.writeFileSync(path.join(process.cwd(), fileName),
-    data);
-}
+
 
 async function init() {
     console.log('The user has been prompt')
     try {
-        await promptUser();
+        const data = await promptUser();
+
+        const markdown = generateMarkdown(data);
+
+        await writeFileAsync('READMe.md', markdown);
+      
     } catch(err) {
         console.log(err);
     }
 }
 
 init();
+
