@@ -24,6 +24,11 @@ function promptUser() {
             type: 'input',
             name: 'description',
             message: 'Enter a description?'
+        },
+        {
+          type: 'input',
+          name: 'installation',
+          message: 'Are there any installations required?'
         }
     ]);
 }
