@@ -2,7 +2,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
   [![Build Status](https://dev.azure.com/vscode/VSCode/_apis/build/status/VS%20Code?branchName=master)](https://dev.azure.com/vscode/VSCode/_build/latest?definitionId=12)
   ## ${data.description}
-  ![Questions](utils/images/example.gif)*Prompt User*[Prompt User]
+  ![Questions(utils/images/example.gif)*Prompt User*][about https://github.com/dangulo4/ReadMe-Generator/tree/master/Develop]
   ## Table of Contents
   - [Installation](#Installation)
   - [Usage](#Usage)
@@ -23,6 +23,7 @@ function generateMarkdown(data) {
   ## Questions
   * ${data.questions}
   ## Github Profile Avatar
+  ${username}
   ## Github email
 `;
 }

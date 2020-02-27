@@ -1,9 +1,8 @@
-const inquirer  = require('inquirer');
-const fs        = require('fs');
-const util      = require('util');
-
-// const open              = require('open');
-// const api               = require('./api');
+const inquirer          = require('inquirer');
+const fs                = require('fs');
+const util              = require('util');
+// const axios             = require('axios');
+// const api               = require('./utils/api');
 const generateMarkdown  = require('./utils/generateMarkdown');
 
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -12,7 +11,7 @@ function promptUser() {
     return inquirer.prompt([
         {
             type: 'input',
-            name: 'name',
+            name: 'username',
             message: 'What is your Github user name?'
         },
         {
@@ -67,6 +66,8 @@ async function init() {
     console.log('The user has been prompt')
     try {
         const data = await promptUser();
+
+        // const api = api(data);
 
         const markdown = generateMarkdown(data);
 
