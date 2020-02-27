@@ -23,7 +23,7 @@ function generateMarkdown(data) {
   ## Questions
   * ${data.questions}
   ## Github Profile Avatar
-  ${username}
+  ${data.username}
   ## Github email
 `;
 }
