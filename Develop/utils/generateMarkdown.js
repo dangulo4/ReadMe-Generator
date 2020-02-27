@@ -2,7 +2,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
   [![Build Status](https://dev.azure.com/vscode/VSCode/_apis/build/status/VS%20Code?branchName=master)](https://dev.azure.com/vscode/VSCode/_build/latest?definitionId=12)
   ## ${data.description}
-  ![Prompt User](/utils/images/example.gif)
+  ![Questions](utils/images/example.gif)*Prompt User*[Prompt User]
   ## Table of Contents
   - [Installation](#Installation)
   - [Usage](#Usage)
@@ -29,3 +29,4 @@ function generateMarkdown(data) {
 
 module.exports = generateMarkdown;
 
+// ![GIF] ![alt text](utils/example.gif)
