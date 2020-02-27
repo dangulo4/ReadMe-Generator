@@ -1,6 +1,7 @@
 # Good README
   [![Build Status](https://dev.azure.com/vscode/VSCode/_apis/build/status/VS%20Code?branchName=master)](https://dev.azure.com/vscode/VSCode/_build/latest?definitionId=12)
-  ## A README file is a text file (commonly readme. txt) that contains information for the user about the software program, utility, or game. README files often contain instructions and additional help, and details about patches or updates
+  ## Description
+  * A README file is a text file (commonly readme. txt) that contains information for the user about the software program, utility, or game. README files often contain instructions and additional help, and details about patches or updates
   ![Questions](utils/images/example.gif)*Prompt User*[about https://github.com/dangulo4/ReadMe-Generator/tree/master/Develop]
   ## Table of Contents
   - [Installation](#Installation)
@@ -22,5 +23,6 @@
   ## Questions
   * NA
   ## Github Profile Avatar
-  dangulo4
+  ## Username
+  * dangulo4
   ## Github email
