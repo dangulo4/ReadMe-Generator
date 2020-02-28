@@ -1,8 +1,8 @@
 const inquirer          = require('inquirer');
 const fs                = require('fs');
 const util              = require('util');
-// const axios             = require('axios');
-// const api               = require('./utils/api');
+
+const api               = require('./utils/api');
 const generateMarkdown  = require('./utils/generateMarkdown');
 
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -54,20 +54,31 @@ function promptUser() {
           name: 'questions',
           message: 'Are there any questions?'
         }
-    ]);
+    ])
+    // .then(function ({username}) {
+    //   const queryUrl = `https://api.github.com/users/${username}`;
+
+    //   axios.get(queryUrl).then(function (res) {
+    //     const avatar = res.data.avatar_url;
+    //     const email = res.data.email;
+    //     console.log('Profile picture: ' + avatar);
+    //     console.log('User Email: ' + email);
+      
+    //   });
+      
+    // })
+    
 }
-// const questions = [
-
-// ];
-
-
 
 async function init() {
-    console.log('The user has been prompt')
+    // console.log('The user has been prompt')
     try {
         const data = await promptUser();
-
-        // const api = api(data);
+        //pass data from github into data
+        const github = await api(data.username);
+        //combine
+        data.avatar = github;
+        
 
         const markdown = generateMarkdown(data);
 

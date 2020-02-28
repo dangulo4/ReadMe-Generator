@@ -11,7 +11,7 @@
   - [Test](#Test)
   - [Questions](#Questions)
   ## Installation
-  * The following installations are required: A step by step series of examples that tell you how to get a development env running
+  * The following installations are required: The following installations are required: A step by step series of examples that tell you how to get a development env running
   ## Usage
   * Say what the step will be
   ## License
@@ -19,10 +19,11 @@
   ## Contributing
   * dangulo4
   ## Tests
-  * NA
+  * N/A
   ## Questions
-  * NA
+  * N/A
   ## Github Profile Avatar
-  ## Username
-  * dangulo4
-  ## Github email
+  * https://avatars2.githubusercontent.com/u/56409526?v=4
+ 
+ 
+  
