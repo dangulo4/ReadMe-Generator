@@ -1,7 +1,7 @@
 function generateMarkdown(data) {
   return `# ${data.title}
-  [![Build Status](https://dev.azure.com/vscode/VSCode/_apis/build/status/VS%20Code?branchName=master)](https://dev.azure.com/vscode/VSCode/_build/latest?definitionId=12)
-  [![Build Status](https://travis-ci.com/username/projectname.svg?branch=master)](https://travis-ci.com/username/projectname)
+  [![HitCount](http://hits.dwyl.com/{username}/{project}.svg)](http://hits.dwyl.com/{username}/{project})
+  [![Build Status] (https://travis-ci.com/username/projectname.svg?branch=master)](https://travis-ci.com/username/projectname)
   ## Description
   * ${data.description}
   ![Questions](utils/images/example.gif)]
@@ -27,11 +27,7 @@ function generateMarkdown(data) {
   ## Github Profile Avatar
   ![Profile Picture](${data.avatar}=250x)
  
- 
-  
 `;
 }
 
 module.exports = generateMarkdown;
-
-// ![GIF] ![alt text](utils/example.gif)
