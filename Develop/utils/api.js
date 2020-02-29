@@ -20,32 +20,4 @@ const inquirer  = require('inquirer');
   
  };
 
-
-
-
-
-// async function getUser() {
-//   console.log('The user has been prompt for github username')
-//   try {
-//     const {username} = inquirer.prompt([
-//       {
-//       type: 'input',
-//       message: 'What is your Github Username?',
-//       name: 'username'
-//       }
-//     ]);
-
-//     const {github} =  axios.get(
-//       `https://api.github.com/users/${username}`
-      
-//      );
-//   } catch (err) {
-//       // console.log('User does not exist');
-//       console.log(err);
-//     }
-//     // console.log(github);
-//  }
-
-//  getUser();
-
 module.exports = api;
