@@ -3,8 +3,8 @@ function generateMarkdown(data) {
   [![Build Status](https://dev.azure.com/vscode/VSCode/_apis/build/status/VS%20Code?branchName=master)](https://dev.azure.com/vscode/VSCode/_build/latest?definitionId=12)
   ## Description
   * ${data.description}
-  ![Questions](utils/images/example.gif) 
-  ## Table of Contents
+  ![Questions](utils/images/example.gif)]
+   ## Table of Contents
   - [Installation](#Installation)
   - [Usage](#Usage)
   - [License](#License)
@@ -24,7 +24,7 @@ function generateMarkdown(data) {
   ## Questions
   * ${data.questions}
   ## Github Profile Avatar
-  ![Profile Picture](${data.avatar} =250x)`;
+  ![Profile Picture](${data.avatar}=250x)
  
  
   
