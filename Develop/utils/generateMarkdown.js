@@ -1,6 +1,7 @@
 function generateMarkdown(data) {
   return `# ${data.title}
   [![Build Status](https://dev.azure.com/vscode/VSCode/_apis/build/status/VS%20Code?branchName=master)](https://dev.azure.com/vscode/VSCode/_build/latest?definitionId=12)
+  [![Build Status](https://travis-ci.com/username/projectname.svg?branch=master)](https://travis-ci.com/username/projectname)
   ## Description
   * ${data.description}
   ![Questions](utils/images/example.gif)]
