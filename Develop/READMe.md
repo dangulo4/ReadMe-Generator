@@ -1,4 +1,4 @@
-# Good README
+# Good README Generator
   [![HitCount](http://hits.dwyl.com/{username}/{project}.svg)](http://hits.dwyl.com/{username}/{project})
   [![Build Status] (https://travis-ci.com/username/projectname.svg?branch=master)](https://travis-ci.com/username/projectname)
   ## Description
@@ -12,7 +12,7 @@
   - [Test](#Test)
   - [Questions](#Questions)
   ## Installation
-  * The following installations are required: The following installations are required: The following installations are required:  The following installations are required: npm install: A step by step series of examples that tell you how to get a development env running
+  * The following installations are required: The following installations are required: The following installations are required: The following installations are required: The following installations are required:  The following installations are required: npm install: A step by step series of examples that tell you how to get a development env running
   ## Usage
   * node index.js
   ## License
