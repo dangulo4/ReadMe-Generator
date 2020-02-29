@@ -1,6 +1,6 @@
 # Good README
-  [![HitCount](http://hits.dwyl.com/{username}/{project}.svg)](http://hits.dwyl.com/{username}/{project})
-  [![Build Status] (https://travis-ci.com/username/projectname.svg?branch=master)](https://travis-ci.com/username/projectname)
+   [![HitCount](http://hits.dwyl.com/{username}/{project}.svg)](http://hits.dwyl.com/{username}/{project})
+  [![NPM Version](https://img.shields.io/npm/v/npm.svg?style=flat)]()
   ## Description
   * A README file is a text file (commonly readme. txt) that contains information for the user about the software program, utility, or game. README files often contain instructions and additional help, and details about patches or updates
   ![Questions](/Develop/utils/images/example.gif)]
