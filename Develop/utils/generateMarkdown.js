@@ -1,7 +1,7 @@
 function generateMarkdown(data) {
   return `# ${data.title}
   [![HitCount](http://hits.dwyl.com/{username}/{project}.svg)](http://hits.dwyl.com/{username}/{project})
-  [![Build Status](https://travis-ci.com/username/projectname.svg?branch=master)](https://travis-ci.com/username/projectname)
+  [![NPM Version](https://img.shields.io/npm/v/npm.svg?style=flat)]
   ## Description
   * ${data.description}
   ![Questions](utils/images/example.gif)]
