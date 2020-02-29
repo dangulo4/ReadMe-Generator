@@ -1,6 +1,6 @@
 # Good README Generator
   [![HitCount](http://hits.dwyl.com/{username}/{project}.svg)](http://hits.dwyl.com/{username}/{project})
-  [![Build Status] (https://travis-ci.com/username/projectname.svg?branch=master)](https://travis-ci.com/username/projectname)
+  [![Build Status](https://travis-ci.com/username/projectname.svg?branch=master)](https://travis-ci.com/username/projectname)
   ## Description
   * A README file is a text file (commonly readme. txt) that contains information for the user about the software program, utility, or game. README files often contain instructions and additional help, and details about patches or updates
   ![Questions](utils/images/example.gif)]
@@ -12,7 +12,7 @@
   - [Test](#Test)
   - [Questions](#Questions)
   ## Installation
-  * The following installations are required: The following installations are required: The following installations are required: The following installations are required: The following installations are required:  The following installations are required: npm install: A step by step series of examples that tell you how to get a development env running
+  * The following installations are required: The following installations are required: The following installations are required: The following installations are required: The following installations are required: The following installations are required:  The following installations are required: npm install: A step by step series of examples that tell you how to get a development env running
   ## Usage
   * node index.js
   ## License
