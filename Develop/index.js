@@ -1,7 +1,6 @@
 const inquirer          = require('inquirer');
 const fs                = require('fs');
 const util              = require('util');
-
 const api               = require('./utils/api');
 const generateMarkdown  = require('./utils/generateMarkdown');
 
@@ -55,19 +54,6 @@ function promptUser() {
           message: 'Are there any questions?'
         }
     ])
-    // .then(function ({username}) {
-    //   const queryUrl = `https://api.github.com/users/${username}`;
-
-    //   axios.get(queryUrl).then(function (res) {
-    //     const avatar = res.data.avatar_url;
-    //     const email = res.data.email;
-    //     console.log('Profile picture: ' + avatar);
-    //     console.log('User Email: ' + email);
-      
-    //   });
-      
-    // })
-    
 }
 
 async function init() {
